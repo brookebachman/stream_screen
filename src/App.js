@@ -3,6 +3,21 @@ import logo from './logo.svg';
 import './App.css';
 import styled from 'styled-components';
 
+const HTML = styled.html`
+background: rgb(0, 59, 255);
+  background: linear-gradient(183deg, rgba(0, 59, 255, 1) 0%, rgba(17, 44, 196, 0.9990371148459384) 100%);
+  backdrop-filter: blurring; padding-top: 0px;
+  max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+    clear: both;`;
+  
+  
+  // const Wrapper = styled.wrapper`
+
+    
+  // `;
+  
 const Header = styled.h1`
 	padding-top: 22px;
 	color: white;
@@ -42,6 +57,7 @@ const Body = styled.body`
 	height: 100%;
   justify-content: space-around;
   padding: 20px;
+
 `;
 const Text = styled.p`
 font-weight: 400;
@@ -52,11 +68,14 @@ color: rgb(114, 114, 114);
 `;
 
 const Link = styled.a`
-`
+`;
 
 function App() {
 	return (
 		<div>
+   
+      <HTML>
+      
 			<Header>
 				Creator club.
 				<With>with </With>
@@ -74,6 +93,8 @@ function App() {
 				</Text>
         <Link>'https://docs.google.com/document/d/19tt3bQaxa1V95q8xcN1bnyGRV6WIj4wepRRcpZBJ87I/edit?usp=sharing'</Link>
 			</Body>
+      </HTML>
+
 		</div>
 	);
 }
