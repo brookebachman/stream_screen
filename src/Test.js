@@ -84,7 +84,7 @@ const MainContent = styled.div`
 
 const ProfileCardContainer = styled.div`
 	position: absolute;
-	top: -70px;
+	top: -60px;
 	width: 30%;
 `;
 

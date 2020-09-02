@@ -19,7 +19,7 @@ const EventTitle = styled.div`
 `;
 
 const EventTiming = styled.div`
-padding-bottom: 10px;
+padding-bottom: 14px;
 `;
 
 const EventDate = styled.span`
@@ -38,8 +38,9 @@ const EventTime = styled.span`
 const Free = styled.h3`
 	font-family: 'Montserrat', sans-serif;
 	font-size: 19px;
-	margin: 15px;
-	padding-left: 92px;
+	padding-left: 108px;
+	padding-top: 15px;
+	margin: 10px 0px;
 `;
 
 const ButtonWatch = styled.button`
@@ -70,13 +71,16 @@ box-shadow: 0px 10px 14px -7px #afb0b3;
 	font-family:Arial;
 	font-size:14px;
 	font-weight:bold;
-
 	text-decoration:none;
   font-family: 'Montserrat';
 `;
 const Right = styled.div`
 
 	
+`;
+
+const ButtonContainer = styled.div`
+padding-top: 6px;
 `;
 
 const Icon = styled.i``;
@@ -107,9 +111,9 @@ const EventInfo = () => {
 						{' '}
 						Free
 						</Free>
-						
+						<ButtonContainer>
 						<ButtonWatch>Watch Recording</ButtonWatch>
-				
+						</ButtonContainer>
 				</Right>
 			</EventCard>
 		</>
