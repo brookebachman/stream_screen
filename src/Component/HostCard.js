@@ -19,13 +19,14 @@ const HostBlurb = styled.h3`
 	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
 	color: #727272;
-	padding: 7px 0px 7px 0px;
+    padding: 7px 0px 7px 0px;
+    line-height: 30px;
 `;
 
-const ContactMario = styled.a`
-	padding-top: 10px;
+const ContactJun = styled.a`
 	text-decoration: none;
-	color: rgb(0, 166, 120);
+    color: rgb(0, 166, 120);
+ 
 `;
 
 
@@ -41,7 +42,7 @@ const HostCard = () => {
 				<ReadingLink href="https://www.readthegeneralist.com">The Generalist. </ReadingLink>Investing in
 				chaotic-good founders at <ReadingLink href="https://charge.vc/">Charge VC.</ReadingLink>
 				<br />
-				<ContactMario>Contact mario 🦊 </ContactMario><br/>
+				<ContactJun>Contact Jun 🦊 </ContactJun><br/>
 			</HostBlurb>
 		</>
 	);

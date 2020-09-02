@@ -15,11 +15,10 @@ const EventTitle = styled.div`
 	font-family: 'Montserrat', sans-serif;
 	font-size: 25px;
 	font-weight: bold;
-	
 `;
 
 const EventTiming = styled.div`
-padding-bottom: 14px;
+	padding-bottom: 14px;
 `;
 
 const EventDate = styled.span`
@@ -32,7 +31,6 @@ const EventTime = styled.span`
 	font-family: 'Montserrat', sans-serif;
 	font-size: 15px;
 	color: #727272;
-
 `;
 
 const Free = styled.h3`
@@ -60,30 +58,29 @@ const ButtonWatch = styled.button`
 	font-family: 'Montserrat';
 `;
 const Button = styled.button`
-box-shadow: 0px 10px 14px -7px #afb0b3;
-	
-	background-color:#daf5e5;
-	border-radius:16px;
-	border:1px solid #daf5e5;
-	display:inline-block;
-	cursor:pointer;
-	color:rgb(0, 166, 120);
-	font-family:Arial;
-	font-size:14px;
-	font-weight:bold;
-	text-decoration:none;
-  font-family: 'Montserrat';
+	box-shadow: 0px 10px 14px -7px #afb0b3;
+	padding: 1px 8px;
+	background-color: #daf5e5;
+	border-radius: 16px;
+	border: 1px solid #daf5e5;
+	display: inline-block;
+	cursor: pointer;
+	color: rgb(0, 166, 120);
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: 'Montserrat';
 `;
-const Right = styled.div`
-
-	
-`;
+const Right = styled.div``;
 
 const ButtonContainer = styled.div`
-padding-top: 6px;
+	padding-top: 6px;
 `;
 
-const Icon = styled.i``;
+const Icon = styled.i`
+	padding-right: 5px;
+`;
 
 const EventInfo = () => {
 	return (
@@ -92,28 +89,23 @@ const EventInfo = () => {
 				<EventTitle>
 					Opportunities in the Creator Economy <br></br>
 					<EventTiming>
-					<EventDate>Sun, Aug 23rd </EventDate>
-					<span>
-						<EventTime>7:00 PM - 7:45 PM MST</EventTime>
-					</span>
+						<EventDate>Sun, Aug 23rd </EventDate>
+						<span>
+							<EventTime>7:00 PM - 7:45 PM MST</EventTime>
+						</span>
 					</EventTiming>
-				
 					<Button>
 						<Icon>
 							<DollarCircle size="35"></DollarCircle>
-         
 						</Icon>
-						Send a tip 
+						Send a tip
 					</Button>
 				</EventTitle>
 				<Right>
-					<Free>
-						{' '}
-						Free
-						</Free>
-						<ButtonContainer>
+					<Free> Free</Free>
+					<ButtonContainer>
 						<ButtonWatch>Watch Recording</ButtonWatch>
-						</ButtonContainer>
+					</ButtonContainer>
 				</Right>
 			</EventCard>
 		</>

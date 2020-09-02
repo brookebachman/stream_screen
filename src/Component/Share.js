@@ -37,7 +37,7 @@ text-shadow:0px 1px 0px gray;
 const Share = () => {
 	return (
 		<>
-			<ShareTitle>Share this event</ShareTitle>
+			<ShareTitle>Share this Event</ShareTitle>
 			<IconDiv>
 				<FacebookCircle size="33" />
 			</IconDiv>

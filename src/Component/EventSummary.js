@@ -31,7 +31,7 @@ color: black;
 const H2 = styled.h2`
 padding: 10px 0px 10px 0px;
 font-family: 'Montserrat', sans-serif;
-font-size: 18px;
+font-size: 16px;
 `;
 
 const EventSummary = () => {
@@ -45,7 +45,7 @@ const EventSummary = () => {
         
 
         </EventBlurb>
-        <DocContribute>What should we talk about? That's up to you. <H2><br/>Add your ideas to this 	<Link href="https://docs.google.com/document/d/19tt3bQaxa1V95q8xcN1bnyGRV6WIj4wepRRcpZBJ87I/edit?usp=sharing">
+        <DocContribute>What should we talk about? That's up to you. <H2>Add your ideas to this 	<Link href="https://docs.google.com/document/d/19tt3bQaxa1V95q8xcN1bnyGRV6WIj4wepRRcpZBJ87I/edit?usp=sharing">
 						doc. 
 						</Link> </H2></DocContribute>
 

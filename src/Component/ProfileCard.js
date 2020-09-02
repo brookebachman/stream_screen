@@ -24,10 +24,6 @@ font-family: 'Alata', sans-serif;
 
 `;
 
-const Button = styled.button`
-
-`;
-//put i tag inside of the button
 
 const ProfileCard = () => {
     return (
