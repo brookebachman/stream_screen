@@ -14,14 +14,14 @@ border: white solid 4px;
 
 const ProfileInfo = styled.div`
 display: grid;
-grid-template-columns: 1fr 1fr;
+grid-template-columns: 2fr 2fr 1fr;
 `;
 
 const Name = styled.p`
 color: white;
 font-size: 20px;
 font-family: 'Alata', sans-serif;
-align-self: center;
+
 `;
 
 const Button = styled.button`
@@ -34,7 +34,7 @@ const ProfileCard = () => {
         <>
         <ProfileInfo>
             <Image></Image>
-            <Name>Jun 🦊</Name>
+            <Name>  Jun 🦊</Name>
         </ProfileInfo>
         </>
     )

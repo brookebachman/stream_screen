@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import ReactDOM from 'react-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { DollarCircle } from '@styled-icons/boxicons-regular/DollarCircle';
 
 const EventCard = styled.div`
 	display: flex;
@@ -16,6 +15,11 @@ const EventTitle = styled.div`
 	font-family: 'Montserrat', sans-serif;
 	font-size: 25px;
 	font-weight: bold;
+	
+`;
+
+const EventTiming = styled.div`
+padding-bottom: 10px;
 `;
 
 const EventDate = styled.span`
@@ -28,12 +32,14 @@ const EventTime = styled.span`
 	font-family: 'Montserrat', sans-serif;
 	font-size: 15px;
 	color: #727272;
+
 `;
 
 const Free = styled.h3`
 	font-family: 'Montserrat', sans-serif;
 	font-size: 19px;
 	margin: 15px;
+	padding-left: 92px;
 `;
 
 const ButtonWatch = styled.button`
@@ -55,21 +61,22 @@ const ButtonWatch = styled.button`
 const Button = styled.button`
 box-shadow: 0px 10px 14px -7px #afb0b3;
 	
-	background-color:#7feb9f;
+	background-color:#daf5e5;
 	border-radius:16px;
-	border:1px solid #7feb9f;
+	border:1px solid #daf5e5;
 	display:inline-block;
 	cursor:pointer;
-	color:black;
+	color:rgb(0, 166, 120);
 	font-family:Arial;
 	font-size:14px;
 	font-weight:bold;
-	padding:6px 14px 6px 14px;
+
 	text-decoration:none;
   font-family: 'Montserrat';
 `;
 const Right = styled.div`
-	padding: 10px;
+
+	
 `;
 
 const Icon = styled.i``;
@@ -80,27 +87,29 @@ const EventInfo = () => {
 			<EventCard>
 				<EventTitle>
 					Opportunities in the Creator Economy <br></br>
+					<EventTiming>
 					<EventDate>Sun, Aug 23rd </EventDate>
 					<span>
 						<EventTime>7:00 PM - 7:45 PM MST</EventTime>
 					</span>
-					<br />
+					</EventTiming>
+				
 					<Button>
 						<Icon>
-							<i class="fas fa-dollar-sign"></i>
-							{/* <FontAwesomeIcon icon={"fas",  "fa-dollar-sign"}>
-          </FontAwesomeIcon> */}
+							<DollarCircle size="35"></DollarCircle>
+         
 						</Icon>
-						$ Send a tip 
+						Send a tip 
 					</Button>
 				</EventTitle>
 				<Right>
 					<Free>
 						{' '}
 						Free
-						<br />
+						</Free>
+						
 						<ButtonWatch>Watch Recording</ButtonWatch>
-					</Free>
+				
 				</Right>
 			</EventCard>
 		</>
