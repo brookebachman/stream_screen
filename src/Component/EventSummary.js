@@ -31,7 +31,7 @@ color: black;
 const H2 = styled.h2`
 padding: 10px 0px 10px 0px;
 font-family: 'Montserrat', sans-serif;
-font-size: 16px;
+font-size: 1px;
 `;
 
 const EventSummary = () => {
