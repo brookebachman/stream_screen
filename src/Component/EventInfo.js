@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import ReactDOM from 'react-dom'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import ReactDOM from 'react-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const EventCard = styled.div`
 	display: flex;
@@ -46,24 +46,33 @@ const ButtonWatch = styled.button`
 	color: #ffffff;
 	font-size: 14px;
 	font-weight: bold;
-	padding: 14px;
+	padding: 14px 14px 14px 14px;
 	text-decoration: none;
 	text-shadow: 0px 1px 0px #5b8a3c;
 	color: white;
 	font-family: 'Montserrat';
 `;
 const Button = styled.button`
-background-color: rgb(0, 166, 120);
-border-radius:40px;
-
+box-shadow: 0px 10px 14px -7px #afb0b3;
+	
+	background-color:#7feb9f;
+	border-radius:16px;
+	border:1px solid #7feb9f;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:6px 14px 6px 14px;
+	text-decoration:none;
+  font-family: 'Montserrat';
 `;
 const Right = styled.div`
-padding: 10px;
+	padding: 10px;
 `;
 
-const Icon = styled.i`
-
-`;
+const Icon = styled.i``;
 
 const EventInfo = () => {
 	return (
@@ -77,24 +86,22 @@ const EventInfo = () => {
 					</span>
 					<br />
 					<Button>
-            <Icon>
-              <i class="fas fa-dollar-sign"></i>
-          {/* <FontAwesomeIcon icon={"fas",  "fa-dollar-sign"}>
+						<Icon>
+							<i class="fas fa-dollar-sign"></i>
+							{/* <FontAwesomeIcon icon={"fas",  "fa-dollar-sign"}>
           </FontAwesomeIcon> */}
-          </Icon>
-            send a tip</Button>
+						</Icon>
+						$ Send a tip 
+					</Button>
 				</EventTitle>
-        <Right>
-				<Free>
-					{' '}
-					Free
-					<br />
-					<ButtonWatch>
-						Watch Recording
-						<i class="fas fa-dollar-sign"></i>
-					</ButtonWatch>
-				</Free>
-        </Right>
+				<Right>
+					<Free>
+						{' '}
+						Free
+						<br />
+						<ButtonWatch>Watch Recording</ButtonWatch>
+					</Free>
+				</Right>
 			</EventCard>
 		</>
 	);

@@ -9,6 +9,7 @@ height: 100px;
 width: 100px;
 border-radius: 50%;
 background-size: cover;
+border: white solid 4px;
 `;
 
 const ProfileInfo = styled.div`
@@ -18,9 +19,8 @@ grid-template-columns: 1fr 1fr;
 
 const Name = styled.p`
 color: white;
-font-size: 30px;
-font-family: 'Montserrat', sans-serif;
-
+font-size: 20px;
+font-family: 'Alata', sans-serif;
 align-self: center;
 `;
 
