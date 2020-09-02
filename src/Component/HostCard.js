@@ -2,8 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 
-
-const AboutHostTitle = styled.h1`
+const AboutHostTitle = styled.h2`
 	font-family: 'Montserrat', sans-serif;
 	font-size: 18px;
 	padding-bottom: 5px;
@@ -29,10 +28,6 @@ const ContactJun = styled.a`
  
 `;
 
-
-const FacebookStuff = styled.a`
-
-`;
 const HostCard = () => {
 	return (
 		<>
