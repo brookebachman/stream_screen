@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import EventInfo from './Component/EventInfo.js';
 import EventSummary from './Component/EventSummary';
 import HostCard from './Component/HostCard.js';
-import Share from './Component/Share.js'
+import Share from './Component/Share.js';
 import backdrop from './backdrop.svg';
 import ProfileCard from './Component/ProfileCard.js';
 
@@ -33,11 +33,10 @@ const Spacer = styled.div`
 `;
 const BlockText = styled.article`
 	position: relative;
-	background: rgb(65,72,255);
-background: linear-gradient(179deg, rgba(65,72,255,1) 0%, rgba(6,40,199,1) 100%, rgba(0,0,4,1) 100%);
+	background: rgb(65, 72, 255);
+	background: linear-gradient(179deg, rgba(65, 72, 255, 1) 0%, rgba(6, 40, 199, 1) 100%, rgba(0, 0, 4, 1) 100%);
 	color: white;
 	padding: 15px 20px 40px 20px;
-	
 `;
 
 const Grid = styled.div`
@@ -79,7 +78,7 @@ const ContentBackground = styled.section`
 
 const MainContent = styled.div`
 	background-color: white;
-	box-shadow: 4px 3px 7px rgba(0, 0, 0, 0.8);
+	box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 14%);
 	padding: 60px 35px;
 `;
 
@@ -90,7 +89,7 @@ const ProfileCardContainer = styled.div`
 `;
 
 const EventContainer = styled.div`
-padding: 20px 0px 4px 0px;
+	padding: 20px 0px 4px 0px;
 `;
 
 const Test = () => {
@@ -126,7 +125,8 @@ const Test = () => {
 						<EventInfo></EventInfo>
 						<hr />
 						<EventContainer>
-						<EventSummary ></EventSummary></EventContainer>
+							<EventSummary></EventSummary>
+						</EventContainer>
 						<HostCard></HostCard>
 						<Share></Share>
 					</MainContent>
