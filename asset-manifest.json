@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/stream_screen/static/css/main.82934c2d.chunk.css",
+    "main.js": "/stream_screen/static/js/main.79d00d98.chunk.js",
+    "main.js.map": "/stream_screen/static/js/main.79d00d98.chunk.js.map",
+    "runtime-main.js": "/stream_screen/static/js/runtime-main.0722be19.js",
+    "runtime-main.js.map": "/stream_screen/static/js/runtime-main.0722be19.js.map",
+    "static/js/2.3f292699.chunk.js": "/stream_screen/static/js/2.3f292699.chunk.js",
+    "static/js/2.3f292699.chunk.js.map": "/stream_screen/static/js/2.3f292699.chunk.js.map",
+    "index.html": "/stream_screen/index.html",
+    "precache-manifest.723cfc29b350f5f435f4a4ffb4b6db51.js": "/stream_screen/precache-manifest.723cfc29b350f5f435f4a4ffb4b6db51.js",
+    "service-worker.js": "/stream_screen/service-worker.js",
+    "static/css/main.82934c2d.chunk.css.map": "/stream_screen/static/css/main.82934c2d.chunk.css.map",
+    "static/js/2.3f292699.chunk.js.LICENSE.txt": "/stream_screen/static/js/2.3f292699.chunk.js.LICENSE.txt",
+    "static/media/backdrop.svg": "/stream_screen/static/media/backdrop.37ee952e.svg",
+    "static/media/jun.jpg": "/stream_screen/static/media/jun.98b66939.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0722be19.js",
+    "static/js/2.3f292699.chunk.js",
+    "static/css/main.82934c2d.chunk.css",
+    "static/js/main.79d00d98.chunk.js"
+  ]
+}
