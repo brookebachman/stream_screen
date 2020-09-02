@@ -66,7 +66,6 @@ const Button = styled.button`
 	display: inline-block;
 	cursor: pointer;
 	color: rgb(0, 166, 120);
-	font-family: Arial;
 	font-size: 14px;
 	font-weight: bold;
 	text-decoration: none;

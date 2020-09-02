@@ -39,17 +39,17 @@ const BlockText = styled.article`
 	padding: 15px 20px 40px 20px;
 `;
 
-const Grid = styled.div`
-	display: grid;
-	grid-template-columns: 2fr 1fr 1fr 3fr;
-`;
-
 const H1 = styled.h1`
 	font-family: 'Alata', sans-serif;
 	font-size: 80px;
 	font-weight: bold;
 	text-align: center;
 	margin: 16px;
+`;
+
+const Grid = styled.div`
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr 3fr;
 `;
 
 const With = styled.span`
@@ -102,7 +102,7 @@ const App = () => {
 						<BlockText>
 							<H1>Creator club.</H1>
 							<Grid>
-								<span></span>
+							<span></span>
 								<With>with</With>
 								<Ul>
 									<Li>Josh Constine</Li>
